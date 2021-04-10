@@ -1,0 +1,117 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: 'PT Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url(../img/galaxy.jpg);
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding: 1em;
+	display: flex;
+	flex-flow: row nowrap;
+	background-color: #efb106;
+}
+section {
+	flex-basis: 57%;
+	margin-right: 10%;
+}
+aside {
+	flex-basis: 33%;
+}
+p{
+	margin-bottom: 0;
+	margin-top: 2rem;
+}
+fieldset{
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-bottom: 2rem;
+}
+legend{
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin-top: 2rem;
+	padding-top: 1.3rem;
+	display: block;
+}
+label{
+	display: block;
+	padding-top: 1.3rem;
+	padding-bottom: 1.3rem;
+	font-family: 'PT Sans', sans-serif;
+}
+textarea{
+	height: 5cm;
+	padding: 1rem;
+	border-radius: 10px;
+	border: none;
+}
+select{
+	font-size: 1rem;
+	border-radius: 10px;
+	border: none;
+}
+button{
+	margin: 2rem, 0;
+	font-size: 1rem;
+	background-color: #bb342F;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	border-radius: 10px;
+}
+button:hover{
+	background-color: aliceblue;
+	color: #bb342F;
+	padding: 15px 32px;
+	border-radius: 10px;
+	font-size: 1rem;
+	margin: 2rem, 0;
+}
+input{
+	font-family: 'Courier New', Courier, monospace;
+	border-radius: 10px;
+	border: none;
+}
+h1{
+	font-family: 'Lobster', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
